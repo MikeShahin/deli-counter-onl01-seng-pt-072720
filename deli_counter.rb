@@ -5,7 +5,10 @@ def line(array)
     puts "The line is currently empty."
   else
     position = katz_deli.index + 1
-    katz_deli.each do |num|
-      puts 
+    announce = []
+    katz_deli.each do |name|
+      announce.push("#{position}. #{name}")
+    end
+    puts "The line is currently: #{announce.join(" ")}"
   end
 end
