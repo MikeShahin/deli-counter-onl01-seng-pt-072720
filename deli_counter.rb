@@ -13,3 +13,5 @@ def line(katz_deli)
     puts "The line is currently: #{announce.join(" ")}"
   end
 end
+
+def 
